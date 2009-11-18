@@ -1,0 +1,4 @@
+recursive-include sagenb *
+include *.txt MANIFEST.in .hgignore .hgtags sdist spkg-dist SPKG.txt go
+recursive-include .hg *
+global-exclude *.pyc *.pyo *.orig *.rej *~ \#* *\#
