@@ -1,0 +1,3 @@
+hg ci && sage -python setup.py sdist
+
+./push
